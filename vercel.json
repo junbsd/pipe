@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/:loc/:task/",
+      "destination": "/index.html?loc=:loc&task=:task"
+    },
+    {
+      "source": "/:loc/:task",
+      "destination": "/index.html?loc=:loc&task=:task"
+    },
+    {
+      "source": "/:loc/",
+      "destination": "/index.html?loc=:loc"
+    },
+    {
+      "source": "/:loc",
+      "destination": "/index.html?loc=:loc"
+    }
+  ]
+}
